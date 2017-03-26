@@ -1,0 +1,129 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    }
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    }
+
+h2,h3,h4,h5,h6
+
+{
+    color: black;
+    }
+
+table, th, td
+{
+    border: 1px solid black;
+    text-align: center;
+    }
+form
+{
+    border: 1px solid black;
+    padding: 1em 2em;
+    line-height: 2em
+    }
+
+.container
+{
+    width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.nav
+{
+    padding: 1em 2em;
+    background: lightseagreen;
+    }
+
+.float
+{
+    float: right;
+    Clear: left;
+    padding: 1em;
+    }
+
+#header
+{
+    padding: 2em;
+    color: white;
+    background-image: url("sandbanner.jpg")
+    }
+
+
+#main
+{
+    margin: 1em 2em;
+    }
+
+#mainbody
+{
+    font-size: 1.2em;
+    }
+
+#announcements
+{
+    color: white;
+    background: black
+    }
+
+#footer
+{
+    padding: 1em 2em;
+    }
+
+/*this part fails- no idea why though
+#contactlist li
+{
+    text-decoration: none;
+}
+*/
+
+.nav ul
+{
+    margin: 0;
+    padding: 0;
+    }
+
+.nav li
+{
+    display: inline;
+    margin-right: 1em;
+    }
+
+.nav li a
+{
+    color: #fff;
+    }
+
+.nav li > a
+{
+    text-decoration: none;
+    }
+
+.links li > a
+{
+    text-decoration: none;
+}
+
+.centeredbody
+{
+    text-align: center;
+    }
+
+/* adjacent sibling selectors */
+h3 + h4 { margin-top: 2em; }
+
+
+
+a:link { color: green; }
+a:visited { color: brown; }
+a:focus { color: black; }
+a:hover { color: lime; }
+a:active { color: red; }
