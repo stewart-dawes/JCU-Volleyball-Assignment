@@ -1,9 +1,8 @@
-
 body
 {
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: arial, sans-serif;
     }
 
 h1 {
@@ -11,23 +10,12 @@ h1 {
     font-size: 3em;
     }
 
-h2,h3,h4,h5,h6
-
-{
-    color: black;
-    }
-
 table, th, td
 {
-    border: 1px solid black;
+    border: 1px  solid black;
     text-align: center;
     }
-form
-{
-    border: 1px solid black;
-    padding: 1em 2em;
-    line-height: 2em
-    }
+
 
 .container
 {
@@ -49,41 +37,17 @@ form
     padding: 1em;
     }
 
-#header
+.fineprint
 {
-    padding: 2em;
-    color: white;
-    background-image: url("sandbanner.jpg")
+    font-size: 0.7em;
+    line-height: 1em;
     }
 
-
-#main
+.contact ul
 {
-    margin: 1em 2em;
+    margin: 0;
+    padding: 0;
     }
-
-#mainbody
-{
-    font-size: 1.2em;
-    }
-
-#announcements
-{
-    color: white;
-    background: black
-    }
-
-#footer
-{
-    padding: 1em 2em;
-    }
-
-/*this part fails- no idea why though
-#contactlist li
-{
-    text-decoration: none;
-}
-*/
 
 .nav ul
 {
@@ -97,9 +61,14 @@ form
     margin-right: 1em;
     }
 
+.contact li
+{
+    text-decoration: none;
+}
+
 .nav li a
 {
-    color: #fff;
+    color: white;
     }
 
 .nav li > a
@@ -107,20 +76,40 @@ form
     text-decoration: none;
     }
 
-.links li > a
-{
-    text-decoration: none;
-}
 
 .centeredbody
 {
     text-align: center;
     }
 
-/* adjacent sibling selectors */
-h3 + h4 { margin-top: 2em; }
 
+#header
+{
+    padding: 2em;
+    color: white;
+    background-image: url("sandbanner.jpg")
+}
 
+#main
+{
+    margin: 1em 2em;
+}
+
+#mainbody
+{
+    font-size: 1.2em;
+}
+
+#announcements
+{
+    color: white;
+    background: black
+}
+
+#footer
+{
+    padding: 1em 2em;
+}
 
 a:link { color: green; }
 a:visited { color: brown; }
