@@ -2,7 +2,7 @@
 <html lang="en-AU">
 <head>
     <meta charset="UTF-8">
-    <title>Slammers Beach Volleyball</title>
+    <title>Slammers Beach Volleyball - Registration</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -29,35 +29,48 @@
     <form action="registration_form.php" method ="post">
         <fieldset>
             <legend> Personal details</legend>
-        First Name: <br>
-        <input type="text" name="firstname"><br>
-        Surname:<br>
-        <input type="text" name="lastname"><br>
-        Contact phone number:<br>
-        <input type="text" name="phone"><br>
-        Contact email address:<br>
-        <input type="email" name="email"><br>
-        Competition day: <br>
-        <input type="radio" name="compday" value="monday">Monday
-        <input type="radio" name="compday" value="tuesday">Tuesday
-        <input type="radio" name="compday" value="wednesday">Wednesday
-        <input type="radio" name="compday" value="thursday">Thursday
-        <input type="radio" name="compday" value="friday">Friday
-        <input type="radio" name="compday" value="saturday">Saturday<br>
-        Competition time:<br>
-        <input type="radio" name="comptime" value="afternoon">Afternoon
-        <input type="radio" name="comptime" value="evening">Evening<br>
-        <P>
-        Playing guidelines:<br>
-        <div class="fineprint">Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin.
-        Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
-        <br><br>
-    </div>
-        I have read and agree to the above playing guidelines.  <input type="checkbox" name="guidelines" required="required"><br>
-        </P>
-        <input type="submit" value="submit">
+            <p>
+            <label>First Name:</label>
+            <input type="text" name="firstname"><br><br>
+            <label>Surname:</label>
+            <input type="text" name="lastname"><br><br>
+            <label>Phone number:</label>
+            <input type="tel" name="phone"><br><br>
+            <label>Email address:</label>
+            <input type="email" name="email"><br><br>
+            <fieldset>
+                <legend>Preferred competition day/s: </legend>
+                <input type="checkbox" name="compday" value="monday">Monday
+                <input type="checkbox" name="compday" value="tuesday">Tuesday
+                <input type="checkbox" name="compday" value="wednesday">Wednesday
+                <input type="checkbox" name="compday" value="thursday">Thursday
+                <input type="checkbox" name="compday" value="friday">Friday
+                <input type="checkbox" name="compday" value="saturday">Saturday<br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferred competition time:</legend>
+                <input type="checkbox" name="comptime" value="afternoon">Afternoon
+                <input type="checkbox" name="comptime" value="evening">Evening<br>
+            </fieldset>
+            <br>
+            <fieldset>
+            <legend>Playing guidelines:</legend>
+            <div class="fineprint">Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin.
+                Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
+            <br><br>
+            </div>
+                <input type="checkbox" name="guidelines" required="required"> I have read and agree to the above playing guidelines.  <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit"> <input type="reset" value="Clear form">
+            <br><br>
         </fieldset>
     </form>
+</div>
+<div ID="footer">
+    (c) 2017 - JC425420 S Dawes Web design, a part of CP1406 Assignment 1
+</div>
 </body>
 </html>
 
