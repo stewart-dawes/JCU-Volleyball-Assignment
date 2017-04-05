@@ -15,7 +15,19 @@ table, th, td
     border: 1px  solid black;
     text-align: center;
     }
+label
+{
+    float: left;
+    width: 8em;
+    text-align: right;
+    margin-right: 10px;
+    }
 
+form
+{
+    margin: 2em 2em;
+
+}
 
 .container
 {
@@ -37,16 +49,26 @@ table, th, td
     padding: 1em;
     }
 
+.floatleft
+{
+    float: left;
+    clear: right;
+    padding-left: 1em;
+    padding-top: 0em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.topalignment
+{
+    vertical-align: text-top;
+
+}
+
 .fineprint
 {
     font-size: 0.7em;
     line-height: 1em;
-    }
-
-.contact ul
-{
-    margin: 0;
-    padding: 0;
     }
 
 .nav ul
@@ -61,10 +83,6 @@ table, th, td
     margin-right: 1em;
     }
 
-.contact li
-{
-    text-decoration: none;
-}
 
 .nav li a
 {
@@ -98,6 +116,7 @@ table, th, td
 #mainbody
 {
     font-size: 1.2em;
+    text-align: center;
 }
 
 #announcements
@@ -108,11 +127,34 @@ table, th, td
 
 #footer
 {
-    padding: 1em 2em;
+
+    font-size: 0.8em;
+    margin-top: 10em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: lightseagreen;
+    width: 90em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footerxdeep
+{
+
+    font-size: 0.8em;
+    margin-top: 25em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: lightseagreen;
+    width: 90em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a:link { color: green; }
-a:visited { color: brown; }
+
+a:link { color: lightseagreen; }
+a:visited { color: blue; }
 a:focus { color: black; }
-a:hover { color: lime; }
+a:hover { color: green; }
 a:active { color: red; }
